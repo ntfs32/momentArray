@@ -1,0 +1,38 @@
+{
+  "name": "moment-array",
+  "version": "1.0.2",
+  "description": "A small utility function that returns an array of formatted date strings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "coverage": "node node_modules/.bin/istanbul cover _mocha -- -R spec",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntfs32/momentArray.git"
+  },
+  "keywords": [
+    "date",
+    "format",
+    "array",
+    "moment",
+    "momentjs",
+    "range"
+  ],
+  "author": "shaddock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntfs32/momentArray/issues"
+  },
+  "homepage": "https://github.com/ntfs32/momentArray#readme",
+  "dependencies": {
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
